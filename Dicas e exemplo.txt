@@ -1,0 +1,28 @@
+- Recomendado utilizar o javascript antes de fechar a "body"
+- Variáveis são dinâmicas
+- " === " verifica a igualdade e o tipo da variável
+- " !==/!= " diferente/NOT
+- setInterval(exibealgo, 1000); executa a função em um determinado tempo repetidamente
+- setTimeout(exibealgo, 1000); executa uma vez em um tempo
+
+**********************************
+		Funções
+
+function texto (variaveis ...){
+	
+	//corpo da função
+
+	var texto;
+
+	return texto;
+}
+**********************************
+
+**********************************
+		Condição Ternária
+
+var sexo = 'M'
+
+var returno (sexo === 'M') ? 'Masculino' : 'Feminino';
+
+**********************************
