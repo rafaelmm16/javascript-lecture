@@ -1,0 +1,7 @@
+- Variáveis
+- Funções
+- Condicionais
+- Estruturas de repetição
+- Manipulação de DOM
+- Requisições assíncronas
+- Construindo um app do zero
