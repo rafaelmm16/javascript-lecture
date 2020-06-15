@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+<body>
+
+    //Digite
+    <div id="app">
+        <input type="text" name="nome" />
+        <button class="botao">Adicionar</button>
+    </div>
+
+    <!Quebra de linha>
+    <br>
+    
+    <script>
+
+        //Document = variavel global, buscar o elemento pela id
+       // var inputElement = document.getElementById('nome');
+        //busca por tag, sempre retorna um vetor
+       // var inputElement = document.getElementsByTagName('input');
+
+        //forma de busca na DOM, percorrer
+       // var inputElement = document.querySelectorAll('input[name=nome]');
+
+        //fazendo o onclick pelo js
+        //Usando no button
+        var inputElement = document.querySelector('input[name=nome]')
+        var btnElement = document.querySelector('button.botao');
+        btnElement.onclick = function(){
+            //Mostrando o texto digitado no botão
+            var text = inputElement.value;
+
+            alert(text);
+        }
+
+        console.log(inputElement);
+
+    </script>
+    
+</body>
+</html>
