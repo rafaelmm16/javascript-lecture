@@ -4,6 +4,7 @@
 - " !==/!= " diferente/NOT
 - setInterval(exibealgo, 1000); executa a função em um determinado tempo repetidamente
 - setTimeout(exibealgo, 1000); executa uma vez em um tempo
+- DOM = todos os elementos dispostos em tela
 
 **********************************
 		Funções

@@ -12,6 +12,7 @@ Curso de introdução ao Javascript
 ## Visualização da parte 02:
 
 ```
-	Todas as respostas podem serem visualizadas na tela principal do html ou no console do navegador,
+	Todas as respostas podem serem visualizadas na tela
+	principal do html ou no console do navegador,
 	geralmente sendo aberto pela tecla F12.
 ```

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Aula 3</title>
+    </head>
+    <body>
+        <div id="app">
+            <input id="nome" />
+        </div>
+
+        <script>
+            var linkElement = document.createElement('a');
+            linkElement.setAttribute('href', 'http://google.com');
+            linkElement.setAttribute('title', 'Site do Google');
+
+            var textElement = document.createTextNode('Acessar o Google');
+            linkElement.appendChild(textElement);
+
+            var elemento = document.querySelector('#app');
+            elemento.appendChild(linkElement);
+
+            var inputElement = document.querySelector('#nome');
+            elemento.removeChild(inputElement);
+        </script>
+    </body>
+</html>
